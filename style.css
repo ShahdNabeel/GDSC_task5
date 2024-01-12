@@ -289,7 +289,6 @@ h1 {
 }
 
 .res {
-    margin: 2%;
     background-color: rgba(211, 211, 211, 0.504);
     display: flex;
     justify-content: space-around;
@@ -303,8 +302,22 @@ h1 {
 .feed {
     text-align: center;
 }
-
+.feed::before{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 1px solid transparent;
+    border-bottom: 169px solid transparent;
+    border-left: 189px solid rgb(248, 45, 85);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 2540px;
+    margin-left: 302px;
+}
 .ident {
+    height: 350px;
     margin: 20px;
     margin-left: 20%;
     margin-right: 20%;
@@ -313,6 +326,7 @@ h1 {
 }
 
 .r img {
+    position: absolute;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -325,8 +339,8 @@ h1 {
 }
 
 .bd {
-    margin-left: 45px;
-    margin-top: 8%;
+    margin-left: 40%;
+    margin-top: 12%;
     text-align: left;
 }
 
