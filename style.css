@@ -10,9 +10,15 @@
 }
 
 .nav_bar {
-    display: flex;
+
     background-color: rgba(0, 0, 0, 0.847);
-    justify-content: space-between;
+
+}
+
+.containerr {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .right {
@@ -87,14 +93,16 @@ h1 {
     font-size: 60px;
     font-weight: bolder;
 }
-.about{
+
+.about {
     display: flex;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.border{
+
+.border {
     margin: 5px;
     height: 330px;
     width: 300px;
@@ -102,30 +110,35 @@ h1 {
     border-color: rgb(90, 88, 88);
     position: absolute;
 }
-.half2{
+
+.half2 {
+    padding-top: 3%;
     text-align: left;
     justify-content: left;
     margin-left: 42%;
 }
-.half2 h2{
-    margin-right: 77%;
-}
-.half2 span{
+
+
+.half2 span {
     color: rgb(247, 19, 84);
 }
-.half1{
+
+.half1 {
     position: absolute;
     padding-top: 2%;
     padding-left: 3%;
 }
-.lll{
+
+.lll {
     text-align: right;
     margin-left: 20px;
 }
-#sss{
+
+#sss {
     color: gray;
 }
-.half2 button{
+
+.half2 button {
     background-color: rgb(255, 39, 100);
     color: white;
     border-radius: 3px;
@@ -133,84 +146,149 @@ h1 {
     border: 3px;
     width: 100px;
 }
-#down{
+
+#down {
     width: 180px;
 }
-.aaa{
+
+.aaa {
     display: flex;
 }
-.container h2{
+
+.container h2 {
     font-size: 40px;
 }
-.hrs{
+
+.hrs {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.hrs1, .hrs2, .hrs3 {
-    background-color:  rgb(255, 39, 100);
+
+.hrs1,
+.hrs2,
+.hrs3 {
+    background-color: rgb(255, 39, 100);
     margin-bottom: 1px;
 }
-.hrs1, .hrs3{
+
+.hrs1,
+.hrs3 {
     margin-left: 48%;
     width: 50px;
     height: 1px;
 }
-.hrs2{
+
+.hrs2 {
     margin-left: 46%;
     width: 100px;
     height: 1px;
 }
-.service{
+
+.service {
     text-align: center;
-    margin: 2%;
     padding: 2%;
     background-color: rgba(211, 211, 211, 0.504);
+    justify-content: space-around;
 }
-.div1{
+
+.div1 {
     padding-top: 1%;
     width: 20%;
     height: 4%;
 }
-.div1 h3{
+
+.div1 h3 {
     color: #000;
 }
-.div1 p{
+
+.div1 p {
     color: rgba(76, 74, 74, 0.385);
 }
-.box{
+
+.box {
     display: flex;
     text-align: center;
     justify-content: space-around;
     margin-bottom: 3%;
 }
-.div1:hover{
-    background-color: aliceblue;
+
+.div1:hover {
+    background-color: white;
 }
-.portf{
+
+.portf {
     text-align: center;
 }
-.titles{
+
+.titles {
     display: flex;
     margin: 2%;
     margin-left: 30%;
     margin-right: 30%;
     justify-content: space-around;
 }
-.titles h6{
+
+.titles h6 {
     color: rgba(0, 0, 0, 0.181);
     font-size: medium;
 }
-.titles h6:hover{
-    color:  rgb(255, 39, 100);
+
+.titles h6:hover {
+    color: rgb(255, 39, 100);
+    cursor: pointer;
 }
-.subres h3{
+.stat{
+    margin-left: 13%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 7px;
+}
+
+
+.one .second {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.one .pi img {
+    transition: .3s ease-in-out;
+}
+
+.one .second {
+    background-color: #14141473;
+    font-size: 12px;
+    opacity: 0;
+    height: 0;
+    color: white;
+    transition: 1s  ease-in-out;
+}
+.one:hover .pi img {
+    transform: scale(1.1);
+}
+.one:hover .second{
+    opacity: 1;
+    height: 100%;
+}
+
+.subres h3 {
     color: #000;
     font-size: 30px;
 }
-.subres p{
+
+.subres p {
     color: rgba(76, 74, 74, 0.385);
 }
-.res{
+
+.res {
     margin: 2%;
     background-color: rgba(211, 211, 211, 0.504);
     display: flex;
@@ -221,74 +299,90 @@ h1 {
     padding-top: 7%;
     padding-bottom: 12%;
 }
-.feed{
+
+.feed {
     text-align: center;
 }
-.ident{
+
+.ident {
     margin: 20px;
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgba(211, 211, 211, 0.504);
     display: flex;
 }
-.r img{
+
+.r img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin: 2%;
 }
-.bd h2{
+
+.bd h2 {
     color: blueviolet;
     text-align: left;
 }
-.bd{
+
+.bd {
     margin-left: 45px;
     margin-top: 8%;
     text-align: left;
 }
-.blogs{
-    margin-left: 3%;
-    margin-right: 3%;
+
+.blogs {
     background-color: rgba(211, 211, 211, 0.504);
     padding-top: 10px;
     text-align: center;
 }
-.boxx{
-   margin-top: 40px;
+
+.boxx {
+    margin-top: 40px;
     display: flex;
 }
-.card{
+
+.card {
     background-color: white;
     width: 25%;
     margin: 5px;
     margin-bottom: 60px;
     text-align: left;
 }
-#card{
+.carddet{
+    padding: 15px;
+}
+#card {
     padding-bottom: 2%;
     margin-left: 12.5%;
 }
-.card h2{
+
+.card h2 {
     font-size: x-large;
 }
-.card p{
+
+.card p {
     color: rgba(19, 18, 18, 0.385);
 }
-.contact{
+
+.contact {
     text-align: center;
 }
-.in1{
+
+.in1 {
     width: 350px;
     padding: 10px;
 }
-.in2{
+
+.in2 {
     width: 707px;
     padding: 10px;
 }
-textarea{
+
+textarea {
     padding: 10px;
 }
-form button{
+
+form button {
     width: 150px;
     height: 30px;
     background-color: rgb(247, 19, 84);
@@ -297,6 +391,7 @@ form button{
     border-radius: 3px;
     border: 0px;
 }
+
 footer {
     margin-top: 5%;
     text-align: center;
@@ -304,9 +399,11 @@ footer {
     color: white;
     background-color: rgba(0, 0, 0, 0.847);
 }
-footer svg{
+
+footer svg {
     margin-right: 10px;
 }
-a path:hover{
+
+a path:hover {
     color: #f71354;
 }
